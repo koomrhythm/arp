@@ -9,6 +9,7 @@ package arp
 import (
 	"os/exec"
 	"strings"
+	"syscall"
 )
 
 func Table() ArpTable {
